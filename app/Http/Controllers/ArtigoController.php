@@ -104,7 +104,7 @@ class ArtigoController extends Controller
 
     public function destroyAll()
     {
-        // deleta tudos os artigos
+        // deleta todos os artigos
         foreach (Artigo::all() as $artigo) {
             $artigo->delete();
         }
